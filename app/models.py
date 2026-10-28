@@ -20,8 +20,6 @@ class Post(Base):
 
     owner = relationship("User")
 
-    dummmy = Column(Integer, nullable=True)
-
 
 class User(Base):
     __tablename__ = "users"
